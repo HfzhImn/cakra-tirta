@@ -1,0 +1,22 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+**/secrets/
+
+# Dependencies and generated output
+node_modules/
+**/node_modules/
+.venv/
+venv/
+__pycache__/
+coverage/
+build/
+.dart_tool/
+.flutter-plugins-dependencies
+
+# Local IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
